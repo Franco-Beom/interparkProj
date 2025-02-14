@@ -14,7 +14,6 @@
 			}
 		
 	} 
-	
 	Error :{
 		error : "약관 페이지 불러오기에 실패하였습니다."
 	}
@@ -29,14 +28,12 @@ Request :
 
 
 Response : 
-	"termsContents"
+	"termsContents" 
 		{
 			"termsId" : integer ,		// 약관 ID
 			"termsTitle : String,		// 약관 제목
 			"termsContents" : String,	// 약관 내용
 		}
-		
-
 Error : 
 {
 	error : "약관 페이지 정보를 불러오기에 실패하였습니다."
@@ -48,14 +45,12 @@ Error :
 API Url : /users/singup
 Request : 
 Response : 
-	"singupList"
+	"singupList" 
 		{
 			"termsId" : integer ,		// 약관 ID
 			"termsTitle : String,		// 약관 제목
 			"termsContents" : String,	// 약관 내용
 		}
-		
-
 Error : 
 {
 	error : "회원가입 페이지 정보를 불러오기에 실패하였습니다."
